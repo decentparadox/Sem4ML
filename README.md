@@ -6,8 +6,8 @@
 
 Visit 
 
-[Krishna varma's GitHub](https://github.com/teammateusername)
-[Kushal's GitHub](https://github.com/teammateusername)
+[Krishna varma's GitHub](https://github.com/KrishnaVarma024/A1_AIE22158_V1)
+[Kushal's GitHub](https://github.com/Vakatikushal/Machine-learning-aie22161)
 
 
 for their contributions to the project.
@@ -15,8 +15,9 @@ for their contributions to the project.
 ---
 
 ## Algorithm Explanation
-TODO:
- Set A  Q1, 
+
+Set A  Q1, 
+```plaintext
 Set c to 0
 Set a as the given list [2, 7, 4, 1, 3, 6]
 Create an empty list b
@@ -32,13 +33,17 @@ For each element a[i] in a:
 Print the value of c
 Print the list b
 Output: it prints the pairs which gives the output 10
- Set A  Q2, 
+```
+
+ Set A  Q2,
+ ```plaintext
  take user input as and store it in string variable
  For each element x in string:
    covert into int
 print the range from max to min
- 
+ ```
 Set A  Q3,
+```plaintext
 FUNCTION matrixmult(matrix, matrix1)
     IF length of matrix is not equal to length of matrix1
         RAISE ValueError("Number of rows in the first matrix must equal the number of rows in the second matrix.")
@@ -93,7 +98,10 @@ Enter numbers in next row of the matrix
 Enter a number m
 it gives result 
 of the multiplication
- Set A  Q4,
+```
+
+Set A  Q4,
+```plaintext
 x = input("Enter the string:") # Take user input for a string
 
 print(x) # Print the input string
@@ -110,7 +118,7 @@ result = CHARACTER with maximum value in count # Find the character with the hig
 count = VALUE associated with result in count # Get the count of the maximally occurring character
 
 print("Maximally occurring character:", result, "and the count is", count) # Print the maximally occurring character and its count
-
+```
 
 
 ### Set B
