@@ -131,3 +131,15 @@ def plot_knn_classification(k_value):
 k_values = [1, 5, 10]
 for k in k_values:
     plot_knn_classification(k)
+
+from sklearn.model_selection import GridSearchCV
+from sklearn.neighbors import KNeighborsClassifier
+# Step 2: Define the parameter grid
+param_grid = {'n_neighbors': [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]}
+knn = KNeighborsClassifier()
+grid_search = GridSearchCV(knn, param_grid, cv=5, scoring='accuracy')  # cv=5 for 5-fold cross-validation
+grid_search.fit(training_data, classes)
+best_k = grid_search.best_params_['n_neighbors']
+best_score = grid_search.best_score_
+print(f"Best k value: {best_k}")
+print(f"Best cross-validation score (accuracy): {best_score}")
